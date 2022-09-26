@@ -1,7 +1,7 @@
 import { Sequelize } from "sequelize";
 
 const db = new Sequelize("todo_list", "root", "", {
-  host: "127.0.0.1",
+  host: "https://sauerkrautz-todo-backend.herokuapp.com",
   dialect: "mysql",
 });
 
