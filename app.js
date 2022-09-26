@@ -53,6 +53,6 @@ app.use(TodosRoute);
 
 app.use(AuthRoute);
 
-app.listen(3306, () => {
+app.listen(5000, () => {
   console.log("server is up and running...");
 });
