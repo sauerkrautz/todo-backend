@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "argon2": "^0.29.1",
+    "connect-session-sequelize": "^7.1.5",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.23.1"
+  },
+  "name": "todobackend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "heroku",
+    "user",
+    "todo",
+    "api"
+  ],
+  "author": "sauerkrautz & krausweln",
+  "license": "MIT",
+  "engines": {
+    "node": "16.15.1"
+  },
+  "description": "simple user and todo backend with level control"
+}

@@ -1,0 +1,25 @@
+// create user
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "bakkad",
+    "email": "bakkad@gmail.com",
+    "password": "bakkad123",
+    "role": "admin"
+}
+
+###
+GET http://localhost:5000/users
+
+###
+PATCH http://localhost:5000/users/dcf08d5a-c225-44be-b25a-640451e7a888
+Content-Type: application/json
+
+{
+    "name": "fahad",
+    "email": "fahad@gmail.com"
+}
+
+###
+DELETE http://localhost:5000/users/dcf08d5a-c225-44be-b25a-640451e7a888
